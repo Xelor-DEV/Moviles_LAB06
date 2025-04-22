@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5022f61f6b1e7f34bb850b4cd38b9af1, type: 3}
+  m_Name: Sensor Data
+  m_EditorClassIdentifier: 
+  currentSensorMode: 2
+  accelerometerSensitivity: 15
+  accelerometerDeadzone: 0.1
+  invertAccelerometer: 0
+  accelerometerOrientation: 3
+  gyroSensitivity: 3
+  gyroDeadzone: 0.05
+  invertGyro: 1
+  rawAcceleration: {x: 0.034221, y: 0.007991, z: -1.044381}
+  scaledAcceleration: {x: 0.119865, y: -0.513315, z: -15.665715}
+  rawRotation: {x: -0.017699856, y: -0.007797885, z: 0.9993588, w: -0.030133873}
+  scaledEulerRotation: {x: 0, y: 6.0021057, z: 0}

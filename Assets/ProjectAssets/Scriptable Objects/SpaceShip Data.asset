@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f916751c956d4ef499fe788a382d481e, type: 3}
+  m_Name: SpaceShip Data
+  m_EditorClassIdentifier: 
+  shipSprite: {fileID: -1775167929, guid: 6911ed8f9fd73404382fc2ad8a758362, type: 3}
+  maxHealth: 6
+  handling: 3
+  scoreSpeed: 10
+  projectileDamage: 1
+  fireRate: 0.5
