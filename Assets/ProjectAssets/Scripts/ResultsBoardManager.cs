@@ -37,6 +37,11 @@ public class ResultsBoardManager : MonoBehaviour
         SceneManager.LoadScene(mainSceneName);
     }
 
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void ExitGame()
     {
         Application.Quit();
