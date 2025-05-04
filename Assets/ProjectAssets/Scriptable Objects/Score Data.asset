@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Score Data
   m_EditorClassIdentifier: 
   currentScore: 0
-  highScore: 0
+  highScore: 10

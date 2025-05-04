@@ -44,9 +44,15 @@ public class ScoreData : ScriptableObject
     {
         currentScore = 0;
     }
-
-    public void ResetHighScore()
+    public bool CheckUpdatedHighScore()
     {
-        HighScore = 0;
+        if (currentScore == highScore)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

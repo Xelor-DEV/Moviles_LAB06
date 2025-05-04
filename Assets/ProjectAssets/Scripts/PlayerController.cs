@@ -49,14 +49,17 @@ public class PlayerController : MonoBehaviour
     {
         shipTransform = transform;
         mainCamera = Camera.main;
-        healthData.Initialize(spaceShipData.MaxHealth);
-        scoreData.ResetCurrentScore();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+
     }
 
     private void Start()
     {
         CalculateMovementLimits();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        healthData.Initialize(spaceShipData.MaxHealth);
+        scoreData.ResetCurrentScore();
+
         if (spriteRenderer != null)
         {
             spriteRenderer.sprite = spaceShipData.ShipSprite;
